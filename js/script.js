@@ -43,12 +43,12 @@ const cardArray = [
 
 ]  
 
-// const gameboard = document.querySelector("#grid") // GAMEBOARD GRID
+const gameboard = document.querySelector("#grid") // GAMEBOARD GRID
 
-// // CREATE GAMEBOARD
-// function gameBoard() {
-//     for (let i = 0; i < cardArray.length; i++) {
-//         let card = document.createElement("img") // CREATE IMAGE ELEMENT FOR EACH CARD
-//         card.setAttribute("src")
-//     }
-// }
+// CREATE GAMEBOARD
+function gameBoard() {
+    for (let i = 0; i < cardArray.length; i++) {
+        let card = document.createElement("img") // CREATE IMAGE ELEMENT FOR EACH CARD
+        card.setAttribute("src", "../img/blank.png")
+    }
+}

@@ -50,7 +50,7 @@ function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         let card = document.createElement("img") // CREATE IMAGE ELEMENT FOR EACH CARD
         card.setAttribute("src", "../img/blank.png")
-        card.setAttribute("data-id", 1)
+        card.setAttribute("data-id", i)
         // card.addEventListener("click", flipcard function)
         gameboard.appendChild(card)  // ADD CARDS WITH DIFFERENT IDS TO DIV GAMEBOARD
     }   
